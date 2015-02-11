@@ -1,20 +1,20 @@
 {
-  "name": "ffmpeg-static",
+  "name": "ffprobe-static",
   "version": "1.0.0",
-  "description": "ffmpeg static binaries for Mac OSX and Linux and Windows",
+  "description": "ffprobe static binaries for Mac OSX and Linux and Windows",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/tape test/*.js"
+    "test": "node_modules/.bin/tape test/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/eugeneware/ffmpeg-static"
+    "url": "https://github.com/faleij/ffprobe-static"
   },
-  "keywords": ["ffmpeg","static","library","binary","binaries","mac","linux","windows"],
-  "author": "Eugene Ware <eugene@noblesamurai.com>",
+  "keywords": ["ffprobe","static","library","binary","binaries","mac","linux","windows"],
+  "author": "Marcus Faleij <marcus.faleij@jappa.jobs>",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/eugeneware/ffmpeg-static/issues"
+    "url": "https://github.com/faleij/ffprobe-static/issues"
   },
   "dependencies": {},
   "devDependencies": {

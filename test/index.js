@@ -1,9 +1,9 @@
 var it = require('tape'),
     fs = require('fs'),
-    ffmpeg = require('..');
+    ffprobe = require('..');
 
-it('should find ffmpeg', function(t) {
-  var stats = fs.statSync(ffmpeg.path);
-  t.ok(stats.isFile(ffmpeg.path));
+it('should find ffprobe', function(t) {
+  var stats = fs.statSync(ffprobe.path);
+  t.ok(stats.isFile(ffprobe.path));
   t.end();
 });
